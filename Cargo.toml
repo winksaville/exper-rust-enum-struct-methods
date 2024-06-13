@@ -1,0 +1,8 @@
+[package]
+name = "exper-rust-enum-struct-methods"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+surrealdb = "1.5.2"
+#surrealdb = { version = "1.5.2", features = ["kv-mem", "sql2"] }
